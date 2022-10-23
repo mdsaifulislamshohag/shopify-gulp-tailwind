@@ -1,0 +1,30 @@
+{
+    "name": "shopify-gulp-tailwindcss",
+    "version": "1.0.0",
+    "description": "Shopify StarterKit with TailwindCSS amd Gulp",
+    "main": "gulpfile.js",
+    "author": "",
+    "license": "ISC",
+    "scripts": {
+        "dev": "concurrently --kill-others \"gulp\" \"theme watch --allow-live\"",
+        "new": "node createStore.js"
+    },
+    "dependencies": {
+        "concurrently": "^7.4.0",
+        "dotenv": "^16.0.2",
+        "gulp-sass": "^5.1.0",
+        "node-sass": "^7.0.1",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^3.1.6"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.7",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^8.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-postcss": "^9.0.1",
+        "gulp-sass": "^5.1.0",
+        "log-symbols": "^4.1.0",
+        "sass": "^1.50.0"
+    }
+}
